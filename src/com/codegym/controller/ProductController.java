@@ -47,7 +47,7 @@ public class ProductController {
                 case 5:{
                     System.out.println("Search Product.");
                     Product productObject = inputProduct();
-                    System.out.println(productService.searchHaveBusiness(productObject););
+                    System.out.println(productService.searchHaveBusiness(productObject));
                     break;
                 }
                 case 6:{
