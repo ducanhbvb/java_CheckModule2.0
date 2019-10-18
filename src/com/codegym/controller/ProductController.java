@@ -3,8 +3,6 @@ package com.codegym.controller;
 import com.codegym.model.Product;
 import com.codegym.service.ProductService;
 import com.codegym.service.ProductServiceimpl;
-
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -49,7 +47,7 @@ public class ProductController {
                 case 5:{
                     System.out.println("Search Product.");
                     Product productObject = inputProduct();
-                    productService.searchHaveBusiness(productObject);
+                    System.out.println(productService.searchHaveBusiness(productObject););
                     break;
                 }
                 case 6:{
